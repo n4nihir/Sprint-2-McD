@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-21T15:33:30Z" name="Suite" finished-at="2020-12-21T15:38:14Z" duration-ms="283734">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunnerUserLocation.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:UserLocation.TestRunnerUserLocation@46b61c56]" name="feature" class="UserLocation.TestRunnerUserLocation"/>
+        <method signature="TestRunnerCart.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Cart.TestRunnerCart@5c2375a9]" name="feature" class="Cart.TestRunnerCart"/>
+        <method signature="TestRunnerCustomizationGrill.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CustomizationGrill.TestRunnerCustomizationGrill@d41f816]" name="feature" class="CustomizationGrill.TestRunnerCustomizationGrill"/>
+        <method signature="TestRunnerPlaystoreIcon.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:PlaystoreIcon.TestRunnerPlaystoreIcon@60129b9a]" name="feature" class="PlaystoreIcon.TestRunnerPlaystoreIcon"/>
+        <method signature="TestRunnerSearch.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Search.TestRunnerSearch@7c8c9a05]" name="feature" class="Search.TestRunnerSearch"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-12-21T15:33:30Z" name="Test1" finished-at="2020-12-21T15:34:47Z" duration-ms="76889">
+      <class name="UserLocation.TestRunnerUserLocation">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:UserLocation.TestRunnerUserLocation@46b61c56]" started-at="2020-12-21T21:03:30Z" name="beforeClass" finished-at="2020-12-21T21:03:31Z" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod([Ljava.lang.Object;)[pri:0, instance:UserLocation.TestRunnerUserLocation@46b61c56]" started-at="2020-12-21T21:03:31Z" name="beforeMethod" finished-at="2020-12-21T21:03:31Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@64c63c79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:UserLocation.TestRunnerUserLocation@46b61c56]" started-at="2020-12-21T21:03:31Z" name="feature" description="Runs CucumberFeature" data-provider="features" finished-at="2020-12-21T21:04:47Z" duration-ms="76393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Location]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:UserLocation.TestRunnerUserLocation@46b61c56]" started-at="2020-12-21T21:04:47Z" name="afterClass" finished-at="2020-12-21T21:04:47Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- UserLocation.TestRunnerUserLocation -->
+    </test> <!-- Test1 -->
+    <test started-at="2020-12-21T15:34:47Z" name="Test2" finished-at="2020-12-21T15:38:14Z" duration-ms="206821">
+      <class name="CustomizationGrill.TestRunnerCustomizationGrill">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:CustomizationGrill.TestRunnerCustomizationGrill@d41f816]" started-at="2020-12-21T21:05:42Z" name="beforeClass" finished-at="2020-12-21T21:05:42Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CustomizationGrill.TestRunnerCustomizationGrill@d41f816]" started-at="2020-12-21T21:05:42Z" name="feature" description="Runs CucumberFeature" data-provider="features" finished-at="2020-12-21T21:07:59Z" duration-ms="137115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CustomizationGrill]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:CustomizationGrill.TestRunnerCustomizationGrill@d41f816]" started-at="2020-12-21T21:07:59Z" name="afterClass" finished-at="2020-12-21T21:07:59Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- CustomizationGrill.TestRunnerCustomizationGrill -->
+      <class name="Search.TestRunnerSearch">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Search.TestRunnerSearch@7c8c9a05]" started-at="2020-12-21T21:04:47Z" name="beforeClass" finished-at="2020-12-21T21:04:47Z" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod([Ljava.lang.Object;)[pri:0, instance:Search.TestRunnerSearch@7c8c9a05]" started-at="2020-12-21T21:04:47Z" name="beforeMethod" finished-at="2020-12-21T21:04:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2f62ea70]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Search.TestRunnerSearch@7c8c9a05]" started-at="2020-12-21T21:04:47Z" name="feature" description="Runs CucumberFeature" data-provider="features" finished-at="2020-12-21T21:05:31Z" duration-ms="44244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Search.TestRunnerSearch@7c8c9a05]" started-at="2020-12-21T21:05:31Z" name="afterClass" finished-at="2020-12-21T21:05:31Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Search.TestRunnerSearch -->
+      <class name="Cart.TestRunnerCart">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Cart.TestRunnerCart@5c2375a9]" started-at="2020-12-21T21:05:31Z" name="beforeClass" finished-at="2020-12-21T21:05:31Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod([Ljava.lang.Object;)[pri:0, instance:Cart.TestRunnerCart@5c2375a9]" started-at="2020-12-21T21:05:31Z" name="beforeMethod" finished-at="2020-12-21T21:05:31Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@24ba9639]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Cart.TestRunnerCart@5c2375a9]" started-at="2020-12-21T21:05:31Z" name="feature" description="Runs CucumberFeature" data-provider="features" finished-at="2020-12-21T21:08:14Z" duration-ms="162463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cart]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Cart.TestRunnerCart@5c2375a9]" started-at="2020-12-21T21:08:14Z" name="afterClass" finished-at="2020-12-21T21:08:14Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Cart.TestRunnerCart -->
+      <class name="PlaystoreIcon.TestRunnerPlaystoreIcon">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:PlaystoreIcon.TestRunnerPlaystoreIcon@60129b9a]" started-at="2020-12-21T21:04:47Z" name="beforeClass" finished-at="2020-12-21T21:04:47Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:PlaystoreIcon.TestRunnerPlaystoreIcon@60129b9a]" started-at="2020-12-21T21:04:47Z" name="feature" description="Runs CucumberFeature" data-provider="features" finished-at="2020-12-21T21:05:42Z" duration-ms="54488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PlaystoreIcon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="beforeMethod([Ljava.lang.Object;)[pri:0, instance:PlaystoreIcon.TestRunnerPlaystoreIcon@60129b9a]" started-at="2020-12-21T21:04:47Z" name="beforeMethod" finished-at="2020-12-21T21:04:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@38aa816f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:PlaystoreIcon.TestRunnerPlaystoreIcon@60129b9a]" started-at="2020-12-21T21:05:42Z" name="afterClass" finished-at="2020-12-21T21:05:42Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- PlaystoreIcon.TestRunnerPlaystoreIcon -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

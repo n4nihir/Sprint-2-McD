@@ -1,0 +1,9 @@
+base_url=https://www.mcdelivery.co.in/
+
+beverage_url=https://www.mcdelivery.co.in/home/beverages
+
+wait_time=5000
+
+chromedriver_address=C:\\Users\\Dell\\Downloads\\chromedriver_win32\\chromedriver.exe
+
+excelfile_address=C:\\Users\\Dell\\git\\repository\\McDelivery\\PageFactory.xlsx

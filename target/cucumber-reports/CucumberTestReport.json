@@ -1,0 +1,164 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: nihirk"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Validate the increase in quantity of item",
+        "description": "",
+        "id": "cart;validate-the-increase-in-quantity-of-item;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 50528598700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User has added an item to the cart with quantity of 3 and is on cart page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDefCart.user_has_added_an_item_to_the_cart_with_quantity_of_and_is_on_cart_page(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15343340600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on plus button 2 number of times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefCart.user_clicks_on_plus_button_number_of_times(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10189648400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the quantity of the particular item in the cart becomes q plus n",
+            "match": {
+              "location": "StepDefCart.the_quantity_of_the_particular_item_in_the_cart_becomes_q_plus_n()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Cart"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Validate the decrease in quantity of item",
+        "description": "",
+        "id": "cart;validate-the-decrease-in-quantity-of-item;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 60902316900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User has added an item to the cart with quantity of 3 and is on cart page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDefCart.user_has_added_an_item_to_the_cart_with_quantity_of_and_is_on_cart_page(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15269564000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on minus button 2 number of times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefCart.user_clicks_on_minus_button_number_of_times(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10151944800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the quantity of the particular item in the cart becomes q minus n",
+            "match": {
+              "location": "StepDefCart.the_quantity_of_the_particular_item_in_the_cart_becomes_q_minus_n()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Cart"
+          }
+        ]
+      }
+    ],
+    "name": "Cart",
+    "description": "",
+    "id": "cart",
+    "keyword": "Feature",
+    "uri": "Cart.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Cart"
+      }
+    ]
+  }
+]
